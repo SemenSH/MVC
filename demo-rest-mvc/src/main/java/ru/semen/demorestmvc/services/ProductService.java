@@ -17,11 +17,11 @@ public class ProductService {
     }
 
     public Product getProductById(Long id) {
-        return repository.getProducts().get(id.intValue() - 1);
+        return repository.getById(id);
     }
 
     public List<Product> getAllProduct() {
-        return repository.getProducts();
+        return repository.findAll();
     }
 
     public void deleteProductById(Long id) {

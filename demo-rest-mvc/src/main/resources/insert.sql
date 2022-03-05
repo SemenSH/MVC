@@ -1,0 +1,1 @@
+INSERT INTO products (title, price) VALUES ('Milk', '60'), ('Cheese', '800'), ('Water', '50');
